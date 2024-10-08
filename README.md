@@ -2,26 +2,6 @@
 This repo is for the [JPMorgan Quant Research program
 ](https://www.theforage.com/simulations/jpmorgan/quantitative-research-11oc)
 
-
-### Setup
-
-#### Virtual Environment
-```console
-brew install virtualenv
-```
-
-```console
-virtualenv -p python3.12 .venv_jpmc_quant
-```
-
-```console
-source .venv_jpmc_quant/bin/activate
-```
-
-```console
-pip install -r requirements.txt
-```
-
 ## Task One
 
 After asking around for the source of the existing data, you learn that the current process is to take a monthly snapshot of prices from a market data provider, which represents the market price of natural gas delivered at the end of each calendar month. This data is available for roughly the next 18 months and is combined with historical prices in a time series database. After gaining access, you are able to download the data in a CSV file. "Nat_Gas.csv"
